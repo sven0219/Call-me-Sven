@@ -1,15 +1,15 @@
-baseURL: "https://www.svenshen.com/"
+baseURL: "http://www.svenshen.com/"
 title: "Call me Sven"
 paginate: 5
 theme: PaperMod
-copyright: "[Call me Sven](https://www.svenshen.com)"
+copyright: "[Call me Sven](http://www.svenshen.com)"
 
 
 
 # https://github.com/adityatelange/hugo-PaperMod/wiki/Variables
 params:
   title: "Call me Sven"
-  description: "This is Sven's Blog!"
+  description: "Coming soon!"
   keywords: [Blog, Portfolio, PaperMod]
   author: Sven
   DateFormat: "January 2, 2006"
@@ -39,16 +39,16 @@ params:
   profileMode:
     enabled: True # needs to be explicitly set
     title: "Call me Sven"
-    subtitle: "This is a new blog!"
+    subtitle: "Coming soon!"
     imageUrl: "images/keyboard.jpg"
     imageWidth: 150
     imageHeight: 150
     imageTitle: Keyboard
-    buttons:
-      - name: Posts
-        url: posts
-      - name: Tags
-        url: tags
+    # buttons:
+    #   - name: Posts
+    #     url: posts
+    #   - name: Tags
+    #     url: tags
 
   # # home-info mode
   # homeInfoParams:
@@ -86,28 +86,28 @@ outputs:
       - HTML
       - RSS
       - JSON 
-menu:
-  main:
-    - identifier: categories
-      name: categories
-      url: /categories/
-      weight: 10
-    - identifier: tags
-      name: tags
-      url: /tags/
-      weight: 20
-    - identifier: about
-      name: about
-      url: /about/
-      weight: 25
-    - identifier: archives
-      name: archives
-      url: /archives/
-      weight: 27
-    - identifier: search
-      name: search
-      url: /search/
-      weight: 30
+# menu:
+#   main:
+#     - identifier: categories
+#       name: categories
+#       url: /categories/
+#       weight: 10
+#     - identifier: tags
+#       name: tags
+#       url: /tags/
+#       weight: 20
+#     - identifier: about
+#       name: about
+#       url: /about/
+#       weight: 25
+#     - identifier: archives
+#       name: archives
+#       url: /archives/
+#       weight: 27
+#     - identifier: search
+#       name: search
+#       url: /search/
+#       weight: 30
 
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
