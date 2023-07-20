@@ -1,4 +1,4 @@
-baseURL: "http://www.svenshen.com/"
+baseURL: "https://www.svenshen.com/"
 title: "Call me Sven"
 paginate: 5
 theme: PaperMod
@@ -41,8 +41,8 @@ params:
     title: "Call me Sven"
     subtitle: "Coming soon!"
     imageUrl: "images/keyboard.jpg"
-    imageWidth: 150
-    imageHeight: 150
+    imageWidth: 300
+    imageHeight: 300
     imageTitle: Keyboard
     # buttons:
     #   - name: Posts
