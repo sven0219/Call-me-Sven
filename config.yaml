@@ -49,6 +49,8 @@ params:
         url: posts
       - name: Tags
         url: tags
+      - name: About
+        url: about
 
   # # home-info mode
   # homeInfoParams:
