@@ -98,22 +98,22 @@ outputs:
 menu:
   main:
     - identifier: categories
-      name: categories
+      name: Categories
       url: /categories/
       weight: 10
     - identifier: tags
-      name: tags
+      name: Tags
       url: /tags/
       weight: 20
     - identifier: about
-      name: about
+      name: About
       url: /about/
-      weight: 25
+      weight: 28
     - identifier: archives
-      name: archives
+      name: Archives
       url: /archives/
       weight: 27
-    - identifier: search
+    - identifier: Search
       name: search
       url: /search/
       weight: 30

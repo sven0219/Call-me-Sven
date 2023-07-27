@@ -8,11 +8,12 @@ summary: "This is a Test post"
 showtoc: true
 ---
 
-# H1
 
-## H2
+# Test youtube video
 
-Test code
+{{< youtube 0Xh8-wT081U >}}
+
+# Test code
 
 ```yaml
 title: "My 1st post"
@@ -53,5 +54,8 @@ editPost:
 
 ```
 
-
+# Test chinese
  中文测试
+
+# Test emoji
+😀😀😀😀🧔🏻🧔🏻🧔🏻🧔🏻👩🏼‍🔬 👩🏼‍🔬 👩🏼‍🔬 🖖🏽🖖🏽🖖🏽🖖🏽🖖🏽🇨🇳🇨🇳🇨🇳🇨🇳
