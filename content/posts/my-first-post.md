@@ -7,13 +7,13 @@ Categories: ["Test"]
 summary: "This is a Test post"
 showtoc: true
 ---
+# Test
+
+> This is a test blog 
 
 
-# Test youtube video
 
-{{< youtube 0Xh8-wT081U >}}
-
-# Test code
+## Test code
 
 ```yaml
 title: "My 1st post"
@@ -54,8 +54,22 @@ editPost:
 
 ```
 
-# Test chinese
+## Test chinese
  中文测试
 
-# Test emoji
+## Test emoji
 😀😀😀😀🧔🏻🧔🏻🧔🏻🧔🏻👩🏼‍🔬 👩🏼‍🔬 👩🏼‍🔬 🖖🏽🖖🏽🖖🏽🖖🏽🖖🏽🇨🇳🇨🇳🇨🇳🇨🇳
+
+## Test shortcodes
+
+###  youtube video
+
+{{< youtube 0Xh8-wT081U >}}
+
+### Github gist
+
+{{< gist sven0219 2d4e33d048cd2d454241b5152d3fe32a >}}
+
+### More shortcodes
+
+[shortcodes](https://gohugo.io/content-management/shortcodes/)
