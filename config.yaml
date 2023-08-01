@@ -41,8 +41,8 @@ params:
     title: "Call me Sven"
     subtitle: "Coming soon!"
     imageUrl: "images/keyboard.jpg"
-    imageWidth: 300
-    imageHeight: 300
+    imageWidth: 250
+    imageHeight: 250
     imageTitle: Keyboard
     buttons:
       - name: Posts
