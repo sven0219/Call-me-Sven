@@ -65,8 +65,8 @@ params:
       url: "https://zhihu.com/people/shen_ben"
     - name: bilibili
       url: "https://space.bilibili.com/96239398"
-    # - name: buymeacoffee
-    #   url: "https://buymeacoffee.com/sven0219"
+    - name: moments
+      url: "https://moments.svenshen.com/"
     - name: email
       url: "mailto:hi@svenshen.com"
 
