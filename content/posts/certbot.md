@@ -1,5 +1,5 @@
 ---
-title: "Certbot 自动更新 ssl"
+title: "Certbot 自动更新 SSL"
 date: 2023-11-01T15:53:23+08:00
 draft: false
 author: "Sven"
