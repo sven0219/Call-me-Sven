@@ -61,12 +61,12 @@ params:
   socialIcons:
     - name: github
       url: "https://github.com/sven0219"
-    - name: zhihu
-      url: "https://zhihu.com/people/shen_ben"
-    - name: bilibili
-      url: "https://space.bilibili.com/96239398"
-    - name: moments
-      url: "https://moments.svenshen.com/"
+    # - name: zhihu
+    #   url: "https://zhihu.com/people/shen_ben"
+    # - name: bilibili
+    #   url: "https://space.bilibili.com/96239398"
+    # - name: moments
+    #   url: "https://moments.svenshen.com/"
     - name: email
       url: "mailto:hi@svenshen.com"
 
