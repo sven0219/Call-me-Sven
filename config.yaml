@@ -51,8 +51,8 @@ params:
         url: tags
       - name: About
         url: about
-      - name: Resume
-        url: resume
+      # - name: Resume
+      #   url: resume
 
   # # home-info mode
   # homeInfoParams:
