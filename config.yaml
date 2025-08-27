@@ -1,6 +1,6 @@
 baseURL: "https://www.svenshen.com/"
 title: "Call me Sven"
-paginate: 5
+pagination.pagerSize: 5
 theme: PaperMod
 copyright: "[Call me Sven](http://www.svenshen.com)"
 
