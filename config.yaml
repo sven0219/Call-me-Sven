@@ -4,7 +4,7 @@ defaultContentLanguage: en
 defaultContentLanguageInSubdir: true
 pagination.pagerSize: 5
 theme: PaperMod
-copyright: "[Call me Sven](http://www.svenshen.com)"
+copyright: "[Call me Sven](http://www.svenshen.com) · 网站大部分内容由 Codex 提交"
 
 
 
@@ -158,7 +158,7 @@ languages:
     weight: 2
     params:
       title: "Call me Sven"
-      description: "即将上线！"
+      description: ""
       label:
         text: "主页"
         icon: /apple-touch-icon.png
@@ -166,7 +166,7 @@ languages:
       profileMode:
         enabled: True
         title: "Call me Sven"
-        subtitle: "即将上线！"
+        subtitle: ""
         imageUrl: "images/keyboard.jpg"
         imageWidth: 250
         imageHeight: 250
