@@ -1,6 +1,6 @@
 ---
 title: "TOTP Made Simple: How App Codes Work"
-date: 2025-02-14T10:00:00+08:00
+date: 2026-01-09T08:57:27+00:00
 draft: false
 author: "Sven"
 summary: "A plain-English guide to time-based one-time passwords and why they keep logins safer."
