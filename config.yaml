@@ -11,7 +11,7 @@ copyright: "[Call me Sven](http://www.svenshen.com) · 网站大部分内容由 
 # https://github.com/adityatelange/hugo-PaperMod/wiki/Variables
 params:
   title: "Call me Sven"
-  description: "Coming soon!"
+  description: ""
   keywords: [Blog, Portfolio, PaperMod]
   author: Sven
   DateFormat: "January 2, 2006"
@@ -42,7 +42,7 @@ params:
   profileMode:
     enabled: True # needs to be explicitly set
     title: "Call me Sven"
-    subtitle: "Coming soon!"
+    subtitle: ""
     imageUrl: "images/keyboard.jpg"
     imageWidth: 250
     imageHeight: 250
