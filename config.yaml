@@ -110,7 +110,7 @@ languages:
     weight: 1
     params:
       title: "Call me Sven"
-      description: "Coming soon!"
+      description: ""
       label:
         text: "Home"
         icon: /apple-touch-icon.png
@@ -118,7 +118,7 @@ languages:
       profileMode:
         enabled: True
         title: "Call me Sven"
-        subtitle: "Coming soon!"
+        subtitle: ""
         imageUrl: "images/keyboard.jpg"
         imageWidth: 250
         imageHeight: 250
