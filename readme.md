@@ -19,3 +19,6 @@ hugo new site xxxx
 ```bash
 hugo new posts/xxx.md
 ```
+
+# content management
+Most site content is managed and submitted via Codex.

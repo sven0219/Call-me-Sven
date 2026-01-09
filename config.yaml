@@ -4,14 +4,14 @@ defaultContentLanguage: en
 defaultContentLanguageInSubdir: true
 pagination.pagerSize: 5
 theme: PaperMod
-copyright: "[Call me Sven](http://www.svenshen.com)"
+copyright: "[Call me Sven](http://www.svenshen.com) · Most content by Codex"
 
 
 
 # https://github.com/adityatelange/hugo-PaperMod/wiki/Variables
 params:
   title: "Call me Sven"
-  description: "Coming soon!"
+  description: ""
   keywords: [Blog, Portfolio, PaperMod]
   author: Sven
   DateFormat: "January 2, 2006"
@@ -42,7 +42,7 @@ params:
   profileMode:
     enabled: True # needs to be explicitly set
     title: "Call me Sven"
-    subtitle: "Coming soon!"
+    subtitle: ""
     imageUrl: "images/keyboard.jpg"
     imageWidth: 250
     imageHeight: 250
@@ -158,7 +158,7 @@ languages:
     weight: 2
     params:
       title: "Call me Sven"
-      description: "即将上线！"
+      description: ""
       label:
         text: "主页"
         icon: /apple-touch-icon.png
@@ -166,7 +166,7 @@ languages:
       profileMode:
         enabled: True
         title: "Call me Sven"
-        subtitle: "即将上线！"
+        subtitle: ""
         imageUrl: "images/keyboard.jpg"
         imageWidth: 250
         imageHeight: 250

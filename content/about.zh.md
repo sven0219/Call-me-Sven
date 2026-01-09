@@ -38,3 +38,4 @@ ShowPostNavLinks: false
 2020 年使用 WordPress。
 2022 年 8 月迁移到 GitHub Pages，使用 Hexo + Next 主题。
 2023 年 7 月清空所有内容，开始使用 Hugo + PaperMod 主题。
+2026 年 1 月，使用 Codex 管理博客，并添加中文版本。
