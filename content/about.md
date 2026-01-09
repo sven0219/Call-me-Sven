@@ -23,11 +23,15 @@ I started my career in the IT industry after graduating in 2018.
 
 ## Skills
 
-- Linux operations and maintenance, plus DevOps tooling (ELK, Grafana, Prometheus, Ansible, Terraform)
-- Containerization and orchestration (Docker, Kubernetes) with automation workflows
-- Cloud platforms (Alibaba Cloud, AWS)
-- GitOps practices for delivery workflows
-- Programming with Python and Golang
+- DevOps tools: Ansible, Terraform, Harbor
+- CI/CD: ArgoCD, FluxCD, GitHub Actions, GitLab CI/CD
+- Containerization: Docker, Kubernetes, Helm
+- Programming languages: Python, Golang
+- Monitoring and logging: Prometheus, Grafana, ELK Stack, Sentry
+- Cloud services: AWS, Alibaba Cloud, Cloudflare, DigitalOcean, Microsoft Azure
+- Operating systems: Linux, macOS, NixOS
+- Version control: Git
+- Collaboration tools: Jira, Confluence, Slack, Teams
 
 ### About the Blog
 
