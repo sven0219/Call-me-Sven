@@ -21,6 +21,18 @@ I started my career in the IT industry after graduating in 2018.
 
 **The Third Job**: I am currently working in the IT department of a foreign enterprise.
 
+## Skills
+
+- DevOps tools: Ansible, Terraform, Harbor
+- CI/CD: ArgoCD, FluxCD, GitHub Actions, GitLab CI/CD
+- Containerization: Docker, Kubernetes, Helm
+- Programming languages: Python, Golang
+- Monitoring and logging: Prometheus, Grafana, ELK Stack, Sentry
+- Cloud services: AWS, Alibaba Cloud, Cloudflare, DigitalOcean, Microsoft Azure
+- Operating systems: Linux, macOS, NixOS
+- Version control: Git
+- Collaboration tools: Jira, Confluence, Slack, Teams
+
 ### About the Blog
 
 In 2020, I used WordPress.
