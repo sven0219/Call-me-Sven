@@ -13,13 +13,21 @@ email：hi@svenshen.com
 
 ## About Me
 
-I graduated from an unknown second-tier university in Anhui Province in 2018. After graduation, I came to Shanghai in a somewhat confused state.
+I started my career in the IT industry after graduating in 2018.
 
-**The First Job**: Through the campus recruitment, I joined a software company. I switched from being a Java developer to an operation and maintenance engineer and worked there for more than two years. I witnessed the company grow from a team of over 20 people to a large company with more than 500 employees. During that period, I learned a great deal and met many people. However, there were always some things that I wasn't satisfied with in my work. Therefore, I left the company in 2020.
+**The First Job**: Through campus recruitment, I joined a software company, transitioning from a Java developer to an operation and maintenance engineer and working there for more than two years. During this period, I gained hands-on experience in software development and operations.
 
-**The Second Job**: I joined an online education company. Unfortunately, in 2021, the state introduced the "Double Reduction" policy, so I left the company in 2022 as well.
+**The Second Job**: I joined an online education company and continued working in the IT field until 2022.
 
-**The Third Job**, which is my current job, is in a foreign enterprise.
+**The Third Job**: I am currently working in the IT department of a foreign enterprise.
+
+## Skills
+
+- Linux operations and maintenance, plus DevOps tooling (ELK, Grafana, Prometheus, Ansible, Terraform)
+- Containerization and orchestration (Docker, Kubernetes) with automation workflows
+- Cloud platforms (Alibaba Cloud, AWS)
+- GitOps practices for delivery workflows
+- Programming with Python and Golang
 
 ### About the Blog
 
