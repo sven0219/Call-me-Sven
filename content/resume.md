@@ -1,124 +1,125 @@
-# 基本信息
+---
+title: "Resume"
+---
 
-- 沈文强/男/1996 
- - 本科/黄山学院/计算机科学与技术(**2018年毕业**)
- - 期望职位：Linux运维工程师/运维开发工程师
-- 联系方式：hi@svenshen.com
+# Basic Information
 
-# 个人技能
+- Wenqiang Shen / Male / 1996
+ - Bachelor's Degree / Huangshan University / Computer Science and Technology (**Graduated in 2018**)
+ - Desired Role: Linux Operations Engineer / DevOps Engineer
+- Contact: hi@svenshen.com
 
-- 6年Linux运维经验，3年运维开发经验
-- 熟悉Linux系统原理及操作
-- 精通ELK、Grafana、Prometheus、Ansible、Terraform等运维工具
-- 熟悉Docker、Kubernetes及其自动化
-- 具备阿里云/AWS管理及维护经验
-- 掌握GitOps理念，熟练应用于工作
-- 掌握Python/Golang
-- 强学习能力和团队协作能力，注重团队合作
+# Skills
 
-# 工作经历
+- 6 years of Linux operations experience, 3 years of DevOps development experience
+- Familiar with Linux system principles and operations
+- Proficient with ELK, Grafana, Prometheus, Ansible, Terraform, and other Ops tools
+- Familiar with Docker, Kubernetes, and automation practices
+- Experience managing Alibaba Cloud and AWS
+- Strong understanding of GitOps and practical implementation
+- Proficient in Python and Golang
+- Strong learning ability and teamwork, focused on collaboration
 
-## 阳狮集团（wiredcraft） —— 2022年5月至今
+# Work Experience
 
-**岗位：** DevOps工程师
+## Publicis Groupe (wiredcraft) — May 2022 to Present
 
-**岗位职责：**
+**Role:** DevOps Engineer
 
-1. 负责多个客户项目的运维工作
-2. 管理和维护AWS、阿里云、腾讯云和青云资源
-3. 提供DevOps支持，包括技术方案、实施方案和监控方案
-4. 维护公司的运维相关文档
-5. 制定和实施客户项目的监控与日志采集方案
-6. 利用Terraform、Ansible、GitHub Action、ArgoCD/Flux CD等工具建立自动化发布流程
-7. 推广GitOps理念并应用于实际项目中
+**Responsibilities:**
 
-<!-- ### 一、SuitSupply Omni
+1. Operations support for multiple client projects
+2. Manage and maintain AWS, Alibaba Cloud, Tencent Cloud, and QingCloud resources
+3. Provide DevOps support, including technical plans, implementation plans, and monitoring solutions
+4. Maintain internal operations documentation
+5. Design and implement monitoring and log collection for client projects
+6. Build automated release pipelines with Terraform, Ansible, GitHub Actions, and ArgoCD/Flux CD
+7. Promote GitOps practices and apply them in projects
 
-**描述：** 这是一个suitsupply的电商网站，在阿里云托管ACK集群上进行部署，微服务架构，使用postgres数据库。
+<!-- ### 1. SuitSupply Omni
 
-**岗位职责：**
+**Description:** An e-commerce platform hosted on Alibaba Cloud ACK with microservices and PostgreSQL.
 
-1. 使用Terraform创建阿里云资源
-2. 负责自动化CI/CD方案的实施，使用GitHub Action 和 FLuxCD
-3. 负责监控方案的制定和实施，使用Grafana、Prometheus、telegrf、influxDB
-4. 负责日志采集方案的制定和实施， 使用ELK
-5. 负责日常错误排查
+**Responsibilities:**
 
-### 二、Cybex APP
+1. Create Alibaba Cloud resources with Terraform
+2. Implement automated CI/CD with GitHub Actions and FluxCD
+3. Build monitoring with Grafana, Prometheus, telegraf, and influxDB
+4. Define and implement log collection with ELK
+5. Troubleshoot day-to-day issues
 
-**描述：**该APP主要是Cybex公司面向欧洲用户开发的一款 APP，包含安卓端和IOS端，后端组件部署在AWS EKS上， 使用Mysql数据库。
+### 2. Cybex App
 
-**岗位职责：**
+**Description:** A mobile app for European users; backend deployed on AWS EKS with MySQL.
 
-1. 前期同开发同事一起制定技术方案。
-2. 使用Terraform创建所有AWS资源。
-3. 负责所有kubernetes manifest的编写。
-4. 使用Github Action 和 argoCD 进行项目的自动化集成和部署。
-5. 使用 CloudWatch 进行日志和监控指标的采集。 -->
+**Responsibilities:**
 
-## 上海英语流利说—— 2020年9月 至 2022年5月
+1. Plan the technical solution with developers
+2. Provision all AWS resources with Terraform
+3. Write Kubernetes manifests
+4. Automate CI/CD with GitHub Actions and ArgoCD
+5. Collect logs and metrics with CloudWatch -->
 
-**岗位：** 运维工程师
+## Shanghai Liulishuo — Sep 2020 to May 2022
 
-**岗位职责：**
+**Role:** Operations Engineer
 
-1. 负责公司IT内部信息化系统的运维工作
-2. 搭建测试和生产环境（SpringCloud，MySQL，Redis，ELK），进行产品部署和运行监控
-3. 管理阿里云相关服务、K8s容器服务及IDC机房运维
-4. 参与应用发布系统和监控报警系统的开发
+**Responsibilities:**
 
-<!-- ### 一、日志及监控系统搭建及开发（流利说）
+1. Maintain internal IT systems
+2. Build testing and production environments (SpringCloud, MySQL, Redis, ELK), and monitor runtime
+3. Manage Alibaba Cloud services, K8s container services, and IDC operations
+4. Participate in delivery platform and monitoring/alerting system development
 
-**主要职责：**
+<!-- ### 1. Monitoring System Build and Development (Liulishuo)
 
-1. 搭建Zabbix和Prometheus监控系统，接入IDC和阿里云服务告警监控
-2. 搭建高可用ELK平台，接入服务器、网络设备和应用数据日志，使用Grafana进行监控展示
-3. 自研监控告警平台，实现灵活可配置的告警推送、分析和处理功能，接入ELK日志系统
+**Responsibilities:**
 
-### 二、应用容器化改造（流利说）
+1. Build Zabbix and Prometheus monitoring, integrate IDC and Alibaba Cloud alerts
+2. Build high-availability ELK platform, ingest logs from servers, devices, and apps, visualize via Grafana
+3. Develop internal alerting platform for flexible alert routing and analysis with ELK logs
 
-**描述：**将公司内部信息化产品SpringCloud应用迁移至阿里云K8s托管集群
+### 2. Application Containerization Migration (Liulishuo)
 
-**主要职责：**
+**Description:** Migrate internal SpringCloud apps to Alibaba Cloud K8s managed cluster
 
-1. 利用阿里云K8s搭建SpringCloud基础服务组件及SpringBoot应用
-2. 制定和实施迁移方案，标准化Deployment和Dockerfile编写
-3. 配置K8s监控系统Prometheus，接入阿里云SLS日志系统
-4. 参与开发自动化发布平台，支持CI/CD流程
+**Responsibilities:**
 
-**业绩：**节省公司阿里云服务器费用约20%，实现线上业务系统滚动发布和宕机自愈 -->
+1. Build base services and SpringBoot apps on Alibaba Cloud K8s
+2. Define and implement migration plan, standardize Deployment and Dockerfile
+3. Configure Prometheus, integrate Alibaba Cloud SLS logs
+4. Build automation release platform to support CI/CD
 
-## 上海泛微软件(契约锁) —— 2018年7月 至 2020年9月
+**Achievements:** Reduced Alibaba Cloud server costs by ~20%, enabled rolling releases and self-healing -->
 
-**岗位：** 运维工程师
+## Shanghai Fawen Software (Qiyuesuo) — Jul 2018 to Sep 2020
 
-**岗位职责：**
+**Role:** Operations Engineer
 
-1. 负责公有化平台（https://www.qiyuesuo.com）从零到一搭建及自动化持续发布
-2. 责私有化产品标准化文档（部署文档、问题解决方案等）输出，容器化方案
-3. 主导完成公有化平台灰度发布
-4. 协助开发项目周期管理系统，用于私有化产品定制化发布
-5. 负责运维审计认证.
+**Responsibilities:**
 
-<!-- ### 一、公有云平台(https://www.qiyuesuo.com)
+1. Build the public platform (https://www.qiyuesuo.com) from scratch and automate delivery
+2. Produce standardized documentation for private deployments (deployment guides, troubleshooting, etc.)
+3. Lead canary releases for the public platform
+4. Assist in developing a project cycle management system for private delivery
+5. Responsible for operations audit compliance
 
-**描述：**该平台主要采用 Java + NodeJs 编写，全部部署在阿里云平台上.
+<!-- ### 1. Public Cloud Platform (https://www.qiyuesuo.com)
 
-**主要职责：**
+**Description:** Java + NodeJs application hosted entirely on Alibaba Cloud.
 
-1. 负责 Git 仓库、jira 缺陷管理平台、CI/CD持续集成、Wiki 知识库平台的前期搭建及集成.
-2. 负责各类环境（生产环境、预发环境、测试环境、开发环境）系统搭建和维护.
-3. 负责产品交付部署、日常运维、线上变更.
-4. 巩固云平台网络安全防护.
-5. 主导完成云平台三级等保认证与可信云认证.
-6. 负责云平台重要数据实时灾备.
+**Responsibilities:**
 
-### 二 、云平台灰度发布
+1. Set up Git repositories, Jira, CI/CD, and Wiki knowledge base
+2. Maintain environments (prod, staging, test, dev)
+3. Handle deployments, operations, and production changes
+4. Strengthen cloud platform security
+5. Lead Tier-3 security and trusted cloud certifications
+6. Build disaster recovery for critical data
 
-1. 负责前期调研及⽅案确定.
+### 2. Canary Releases
 
-2. 负责灰度发布调整⾃动化脚本编写.
-
-3. 负责灰度发布调整完成后测试⽅案的确定.
-4. 负责发布系统与需求管理平台集成功能 、CI/CD ⼯具集成功能 开发. -->
-
+1. Define the plan and confirm approach
+2. Write automation scripts for rollout adjustments
+3. Define testing plans after adjustments
+4. Build integrations with release and demand management systems -->

@@ -1,5 +1,7 @@
 baseURL: "https://www.svenshen.com/"
 title: "Call me Sven"
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: true
 pagination.pagerSize: 5
 theme: PaperMod
 copyright: "[Call me Sven](http://www.svenshen.com)"
@@ -22,6 +24,7 @@ params:
   searchHidden: false
   ShowWordCount: true
   UseHugoToc: true
+  displayFullLangName: true
   disableSpecial1stPost: false
   disableScrollToTop: true
   comments: false
@@ -96,29 +99,105 @@ outputs:
     home:
       - HTML
       - RSS
-      - JSON 
-menu:
-  main:
-    - identifier: categories
-      name: Categories
-      url: /categories/
-      weight: 10
-    - identifier: tags
-      name: Tags
-      url: /tags/
-      weight: 20
-    - identifier: about
-      name: About
-      url: /about/
-      weight: 28
-    - identifier: archives
-      name: Archives
-      url: /archives/
-      weight: 27
-    - identifier: Search
-      name: search
-      url: /search/
-      weight: 30
+      - JSON
+
+languages:
+  en:
+    languageName: English
+    languageCode: en-us
+    weight: 1
+    params:
+      title: "Call me Sven"
+      description: "Coming soon!"
+      label:
+        text: "Home"
+        icon: /apple-touch-icon.png
+        iconHeight: 35
+      profileMode:
+        enabled: True
+        title: "Call me Sven"
+        subtitle: "Coming soon!"
+        imageUrl: "images/keyboard.jpg"
+        imageWidth: 250
+        imageHeight: 250
+        imageTitle: Keyboard
+        buttons:
+          - name: Posts
+            url: posts
+          - name: Tags
+            url: tags
+          - name: About
+            url: about
+    menu:
+      main:
+        - identifier: categories
+          name: Categories
+          url: /categories/
+          weight: 10
+        - identifier: tags
+          name: Tags
+          url: /tags/
+          weight: 20
+        - identifier: about
+          name: About
+          url: /about/
+          weight: 28
+        - identifier: archives
+          name: Archives
+          url: /archives/
+          weight: 27
+        - identifier: Search
+          name: Search
+          url: /search/
+          weight: 30
+  zh:
+    languageName: 中文
+    languageCode: zh-cn
+    weight: 2
+    params:
+      title: "Call me Sven"
+      description: "即将上线！"
+      label:
+        text: "主页"
+        icon: /apple-touch-icon.png
+        iconHeight: 35
+      profileMode:
+        enabled: True
+        title: "Call me Sven"
+        subtitle: "即将上线！"
+        imageUrl: "images/keyboard.jpg"
+        imageWidth: 250
+        imageHeight: 250
+        imageTitle: Keyboard
+        buttons:
+          - name: 文章
+            url: posts
+          - name: 标签
+            url: tags
+          - name: 关于
+            url: about
+    menu:
+      main:
+        - identifier: categories
+          name: 分类
+          url: /categories/
+          weight: 10
+        - identifier: tags
+          name: 标签
+          url: /tags/
+          weight: 20
+        - identifier: about
+          name: 关于
+          url: /about/
+          weight: 28
+        - identifier: archives
+          name: 归档
+          url: /archives/
+          weight: 27
+        - identifier: Search
+          name: 搜索
+          url: /search/
+          weight: 30
 
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
