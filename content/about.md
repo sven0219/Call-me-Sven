@@ -38,3 +38,4 @@ I started my career in the IT industry after graduating in 2018.
 In 2020, I used WordPress.
 In August 2022, I migrated to GitHub Pages and used the Hexo + Next theme.
 In July 2023, I cleared all the content and started using the Hugo + PaperMod theme.
+In January 2026, I started using Codex to manage the blog and added a Chinese version.
