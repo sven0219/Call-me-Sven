@@ -40,7 +40,7 @@ params:
 
   # profile-mode
   profileMode:
-    enabled: false # needs to be explicitly set
+    enabled: True # needs to be explicitly set
     title: "Call me Sven"
     subtitle: ""
     imageUrl: "images/keyboard.jpg"
@@ -57,11 +57,11 @@ params:
       # - name: Resume
       #   url: resume
 
-  # home-info mode
-  homeInfoParams:
-    enabled: true
-    Title: "Call me Sven \U0001F44B"
-    Content: Welcome to my personal blog and portfolio.
+  # # home-info mode
+  # homeInfoParams:
+  #   enabled: false
+  #   Title: "Hi there \U0001F44B"
+  #   Content: Welcome to my blog
 
   socialIcons:
     - name: github
