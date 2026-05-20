@@ -1,10 +1,10 @@
-baseURL: "https://www.svenshen.com/"
+baseURL: "https://www.svenshen.me/"
 title: "Call me Sven"
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: true
 pagination.pagerSize: 5
 theme: PaperMod
-copyright: "[Call me Sven](http://www.svenshen.com) · Most content by Codex"
+copyright: "[Call me Sven](http://www.svenshen.me) · Most content by Codex"
 
 
 
@@ -55,7 +55,7 @@ params:
       - name: About
         url: about
       - name: Resume
-        url: https://resume.svenshen.com
+        url: https://resume.svenshen.me
 
   # # home-info mode
   # homeInfoParams:
@@ -73,9 +73,9 @@ params:
     # - name: bilibili
     #   url: "https://space.bilibili.com/96239398"
     # - name: moments
-    #   url: "https://moments.svenshen.com/"
+    #   url: "https://moments.svenshen.me/"
     - name: email
-      url: "mailto:hi@svenshen.com"
+      url: "mailto:hi@svenshen.me"
 
   cover:
     hidden: true # hide everywhere but not in structured data
@@ -131,7 +131,7 @@ languages:
           - name: About
             url: about
           - name: Resume
-            url: https://resume.svenshen.com
+            url: https://resume.svenshen.me
     menu:
       main:
         - identifier: categories
@@ -181,7 +181,7 @@ languages:
           - name: 关于
             url: about
           - name: 简历
-            url: https://resume.svenshen.com
+            url: https://resume.svenshen.me
     menu:
       main:
         - identifier: categories

@@ -7,7 +7,7 @@ title: "Resume"
 - Wenqiang Shen / Male / 1996
  - Bachelor's Degree / Huangshan University / Computer Science and Technology (**Graduated in 2018**)
  - Desired Role: Linux Operations Engineer / DevOps Engineer
-- Contact: hi@svenshen.com
+- Contact: hi@svenshen.me
 
 # Skills
 

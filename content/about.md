@@ -8,7 +8,7 @@ ShowPostNavLinks: false
 
 ```
 name：Sven
-email：hi@svenshen.com
+email：hi@svenshen.me
 ```
 
 ## About Me
