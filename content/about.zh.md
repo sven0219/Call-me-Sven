@@ -8,7 +8,7 @@ ShowPostNavLinks: false
 
 ```
 姓名：Sven
-邮箱：hi@svenshen.com
+邮箱：hi@svenshen.me
 ```
 
 ## 关于我
