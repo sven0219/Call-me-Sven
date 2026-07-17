@@ -11,8 +11,8 @@ copyright: "[Call me Sven](http://www.svenshen.me) · Most content by Codex"
 # https://github.com/adityatelange/hugo-PaperMod/wiki/Variables
 params:
   title: "Call me Sven"
-  description: ""
-  keywords: [Blog, Portfolio, PaperMod]
+  description: "Notes from Sven: DevOps, cloud infrastructure, AI, and small engineering field reports."
+  keywords: [Blog, DevOps, Cloud, Kubernetes, GitOps, AI, Infrastructure]
   author: Sven
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
@@ -42,7 +42,7 @@ params:
   profileMode:
     enabled: True # needs to be explicitly set
     title: "Call me Sven"
-    subtitle: ""
+    subtitle: "DevOps · Cloud · AI · notes from the terminal"
     imageUrl: "images/keyboard.jpg"
     imageWidth: 250
     imageHeight: 250
@@ -110,7 +110,7 @@ languages:
     weight: 1
     params:
       title: "Call me Sven"
-      description: ""
+      description: "Notes from Sven: DevOps, cloud infrastructure, AI, and small engineering field reports."
       label:
         text: "Home"
         icon: /apple-touch-icon.png
@@ -118,7 +118,7 @@ languages:
       profileMode:
         enabled: True
         title: "Call me Sven"
-        subtitle: ""
+        subtitle: "DevOps · Cloud · AI · notes from the terminal"
         imageUrl: "images/keyboard.jpg"
         imageWidth: 250
         imageHeight: 250
@@ -160,7 +160,7 @@ languages:
     weight: 2
     params:
       title: "Call me Sven"
-      description: ""
+      description: "Sven 的技术笔记：DevOps、云基础设施、AI，以及来自终端的一线记录。"
       label:
         text: "主页"
         icon: /apple-touch-icon.png
@@ -168,7 +168,7 @@ languages:
       profileMode:
         enabled: True
         title: "Call me Sven"
-        subtitle: ""
+        subtitle: "DevOps · 云原生 · AI · 终端里的技术札记"
         imageUrl: "images/keyboard.jpg"
         imageWidth: 250
         imageHeight: 250

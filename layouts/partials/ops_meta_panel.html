@@ -1,0 +1,35 @@
+{{- $tags := .Language.Params.Taxonomies.tag | default "tags" -}}
+{{- $section := .Section | default "page" -}}
+<div class="ops-meta-panel" aria-label="Post metadata">
+    <div class="ops-meta-panel__prompt">$ cat post.meta</div>
+    <dl class="ops-meta-panel__grid">
+        {{- if not .Date.IsZero }}
+        <div>
+            <dt>date</dt>
+            <dd>{{ .Date | time.Format "2006-01-02 15:04 MST" }}</dd>
+        </div>
+        {{- end }}
+        <div>
+            <dt>type</dt>
+            <dd>{{ $section }}</dd>
+        </div>
+        <div>
+            <dt>read</dt>
+            <dd>{{ .ReadingTime }} min · {{ .WordCount }} words</dd>
+        </div>
+        <div>
+            <dt>status</dt>
+            <dd>{{ if .Draft }}draft{{ else }}published{{ end }}</dd>
+        </div>
+        {{- with (.GetTerms $tags) }}
+        <div class="ops-meta-panel__wide">
+            <dt>tags</dt>
+            <dd>
+                {{- range . }}
+                <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+                {{- end }}
+            </dd>
+        </div>
+        {{- end }}
+    </dl>
+</div>

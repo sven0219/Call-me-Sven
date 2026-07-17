@@ -37,7 +37,7 @@ hugo new posts/my-post.md
 
 ## CI and toolchain
 
-- CI uses Hugo extended `0.148.2` on `ubuntu-latest`
+- CI uses Hugo extended `0.157.0` on `ubuntu-latest`
 - Builds on push to `main` via `hugo --gc --minify --baseURL <pages-url>/`
 - No `package.json`, `Makefile`, or any app runner
 - No linter, no typechecker, no test suite

@@ -1,0 +1,20 @@
+<script>
+    (function () {
+        function applyStoredTheme() {
+            var preferredTheme = localStorage.getItem("pref-theme");
+            if (preferredTheme === "dark") {
+                document.body.classList.add("dark");
+            } else if (preferredTheme === "light") {
+                document.body.classList.remove("dark");
+            }
+        }
+
+        applyStoredTheme();
+        window.addEventListener("pageshow", applyStoredTheme);
+        window.addEventListener("storage", function (event) {
+            if (event.key === "pref-theme") {
+                applyStoredTheme();
+            }
+        });
+    })();
+</script>

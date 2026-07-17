@@ -1,0 +1,94 @@
+<div class="profile">
+    {{- with site.Params.profileMode }}
+    <div class="profile_inner">
+        {{- if .imageUrl -}}
+        {{- $img := "" }}
+        {{- if not (urls.Parse .imageUrl).IsAbs }}
+            {{- $img = resources.Get .imageUrl }}
+        {{- end }}
+        {{- if $img }}
+            {{- $processableFormats := (slice "jpg" "jpeg" "png" "tif" "bmp" "gif") -}}
+            {{- if hugo.IsExtended -}}
+                {{- $processableFormats = $processableFormats | append "webp" -}}
+            {{- end -}}
+            {{- $prod := (hugo.IsProduction | or (eq site.Params.env "production")) }}
+            {{- if and (in $processableFormats $img.MediaType.SubType) (eq $prod true)}}
+                {{- if (not (and (not .imageHeight) (not .imageWidth))) }}
+                    {{- $img = $img.Resize (printf "%dx%d" .imageWidth .imageHeight) }}
+                {{- else if .imageHeight }}
+                    {{- $img = $img.Resize (printf "x%d" .imageHeight) }}
+                {{ else if .imageWidth }}
+                    {{- $img = $img.Resize (printf "%dx" .imageWidth) }}
+                {{ else }}
+                    {{- $img = $img.Resize "150x150" }}
+                {{- end }}
+            {{- end }}
+            <img draggable="false" src="{{ $img.Permalink }}" alt="{{ .imageTitle | default "profile image" }}" title="{{ .imageTitle }}"
+                height="{{ .imageHeight | default 150 }}" width="{{ .imageWidth | default 150 }}" />
+        {{- else }}
+        <img draggable="false" src="{{ .imageUrl | absURL }}" alt="{{ .imageTitle | default "profile image" }}" title="{{ .imageTitle }}"
+            height="{{ .imageHeight | default 150 }}" width="{{ .imageWidth | default 150 }}" />
+        {{- end }}
+        {{- end }}
+        <h1>{{ .title | default site.Title | markdownify }}</h1>
+        <span>{{ .subtitle | markdownify }}</span>
+        {{- partial "social_icons.html" -}}
+
+        {{- with .buttons }}
+        <div class="buttons">
+            {{- range . }}
+            <a class="button" href="{{ trim .url " " }}" rel="noopener" title="{{ .name }}">
+                <span class="button-inner">
+                    {{ .name }}
+                    {{- if (findRE "://" .url) }}&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="14" width="14">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                    {{- end }}
+                </span>
+            </a>
+            {{- end }}
+        </div>
+        {{- end }}
+    </div>
+    {{- end}}
+</div>
+
+{{- $posts := where site.RegularPages "Type" "in" site.Params.mainSections -}}
+{{- $posts = $posts.ByDate.Reverse -}}
+{{- $latest := index $posts 0 -}}
+{{- $isZh := eq site.Language.Lang "zh" -}}
+<section class="lab-status" aria-label="DevOps lab status">
+    <div class="lab-status__terminal">systemctl status sven.lab</div>
+    <div class="lab-status__grid">
+        <div class="lab-status__item">
+            <span class="lab-status__key">mode</span>
+            <span class="lab-status__value">{{ if $isZh }}DevOps 现场笔记{{ else }}DevOps field notes{{ end }}</span>
+        </div>
+        <div class="lab-status__item">
+            <span class="lab-status__key">stack</span>
+            <span class="lab-status__value">Kubernetes · Terraform · ArgoCD · AWS</span>
+        </div>
+        <div class="lab-status__item">
+            <span class="lab-status__key">signals</span>
+            <span class="lab-status__value">CI/CD · SRE · Security · AI</span>
+        </div>
+        <div class="lab-status__item">
+            <span class="lab-status__key">notes</span>
+            <span class="lab-status__value">{{ len $posts }} {{ if $isZh }}篇已发布{{ else }}published{{ end }}</span>
+        </div>
+        {{- with $latest }}
+        <a class="lab-status__item lab-status__item--link" href="{{ .RelPermalink }}">
+            <span class="lab-status__key">latest</span>
+            <span class="lab-status__value">{{ .Title }}</span>
+        </a>
+        {{- end }}
+        <div class="lab-status__item">
+            <span class="lab-status__key">deploy</span>
+            <span class="lab-status__value">GitHub Pages · Hugo {{ hugo.Version }}</span>
+        </div>
+    </div>
+</section>

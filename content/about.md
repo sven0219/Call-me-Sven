@@ -4,38 +4,49 @@ hidemeta: true
 ShowPostNavLinks: false
 ---
 
-## Email Me
+# README.md
 
+> DevOps practitioner building calm, repeatable cloud platforms — the kind that make deploys boring, incidents diagnosable, and teams a little less tired.
+
+```yaml
+name: Sven
+role: DevOps / IT / platform tinkerer
+location: China
+contact: hi@svenshen.me
+focus:
+  - platform engineering
+  - Kubernetes operations
+  - infrastructure as code
+  - CI/CD and GitOps
+  - observability
+  - AI-assisted engineering workflows
 ```
-name：Sven
-email：hi@svenshen.me
-```
 
-## About Me
+## ./current-stack
 
-I started my career in the IT industry after graduating in 2018.
+- **Infrastructure**: AWS, Alibaba Cloud, Cloudflare, DigitalOcean, Microsoft Azure
+- **Containers**: Docker, Kubernetes, Helm, EKS
+- **Delivery**: Argo CD, Flux CD, GitHub Actions, GitLab CI/CD
+- **IaC & automation**: Terraform, Ansible, Harbor
+- **Observability**: Prometheus, Grafana, ELK Stack, Sentry
+- **Languages**: Python, Go
+- **Systems**: Linux, macOS, NixOS
+- **Collaboration**: Git, Jira, Confluence, Slack, Teams
 
-**The First Job**: Through campus recruitment, I joined a software company, transitioning from a Java developer to an operation and maintenance engineer and working there for more than two years. During this period, I gained hands-on experience in software development and operations.
+## ./career-log
 
-**The Second Job**: I joined an online education company and continued working in the IT field until 2022.
+- `2018 -> 2020+` Started in software engineering, then moved from Java development into operations and maintenance. That first switch shaped how I think: code is only done when it can survive production.
+- `2020+ -> 2022` Continued building and operating systems in the online education industry.
+- `2022 -> now` Working in IT for a foreign enterprise, with more focus on cloud, delivery pipelines, and platform reliability.
 
-**The Third Job**: I am currently working in the IT department of a foreign enterprise.
+## ./principles
 
-## Skills
+- Automate the boring path, document the weird path.
+- Prefer understandable infrastructure over clever infrastructure.
+- Treat CI/CD as a product, not a pile of YAML.
+- Keep production boring; keep learning weird.
+- Write notes while the incident is still warm.
 
-- DevOps tools: Ansible, Terraform, Harbor
-- CI/CD: ArgoCD, FluxCD, GitHub Actions, GitLab CI/CD
-- Containerization: Docker, Kubernetes, Helm
-- Programming languages: Python, Golang
-- Monitoring and logging: Prometheus, Grafana, ELK Stack, Sentry
-- Cloud services: AWS, Alibaba Cloud, Cloudflare, DigitalOcean, Microsoft Azure
-- Operating systems: Linux, macOS, NixOS
-- Version control: Git
-- Collaboration tools: Jira, Confluence, Slack, Teams
+## ./this-site
 
-### About the Blog
-
-In 2020, I used WordPress.
-In August 2022, I migrated to GitHub Pages and used the Hexo + Next theme.
-In July 2023, I cleared all the content and started using the Hugo + PaperMod theme.
-In January 2026, I started using Codex to manage the blog and added a Chinese version.
+This site is my public lab notebook: DevOps notes, cloud experiments, platform blueprints, and occasional AI thoughts. It started on WordPress in 2020, moved to GitHub Pages with Hexo in 2022, then became a Hugo + PaperMod site in 2023. In 2026, I started managing it with Codex and added Chinese content.
