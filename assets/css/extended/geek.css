@@ -99,16 +99,16 @@ a {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
 }
 
-.logo a {
+.logo > a {
     font-size: 0;
 }
 
-.logo a img,
-.logo a svg {
+.logo > a img,
+.logo > a svg {
     display: none;
 }
 
-.logo a::after {
+.logo > a::after {
     content: "sven@home:~$";
     font-size: 18px;
     font-weight: 700;
