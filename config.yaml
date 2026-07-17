@@ -24,7 +24,7 @@ params:
   searchHidden: false
   ShowWordCount: true
   UseHugoToc: true
-  displayFullLangName: true
+  displayFullLangName: false
   disableSpecial1stPost: false
   disableScrollToTop: true
   comments: false
