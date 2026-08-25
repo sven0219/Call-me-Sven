@@ -54,8 +54,6 @@ params:
         url: tags
       - name: About
         url: about
-      - name: Resume
-        url: https://resume.svenshen.me
 
   # # home-info mode
   # homeInfoParams:
@@ -130,8 +128,6 @@ languages:
             url: tags
           - name: About
             url: about
-          - name: Resume
-            url: https://resume.svenshen.me
     menu:
       main:
         - identifier: categories
@@ -180,8 +176,6 @@ languages:
             url: tags
           - name: 关于
             url: about
-          - name: 简历
-            url: https://resume.svenshen.me
     menu:
       main:
         - identifier: categories
