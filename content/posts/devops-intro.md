@@ -12,6 +12,8 @@ showtoc: true
 
 DevOps is not a single tool. It is a **culture + process + technology** system that shortens feedback loops from idea to production while improving quality and reliability. It emphasizes shared responsibility across development, operations, and security, using automation and continuous feedback to reduce delivery risk. This article covers DevOps principles, system architecture, delivery flow, and toolchains.
 
+Reference blueprint repository: [sven0219/devops-platform-blueprint](https://github.com/sven0219/devops-platform-blueprint).
+
 ## 1. Core DevOps Principles
 
 ### 1.1 Collaboration Culture: Breaking Silos

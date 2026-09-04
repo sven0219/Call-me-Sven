@@ -12,6 +12,8 @@ showtoc: true
 
 DevOps 不是某一个工具，而是一个 **文化 + 流程 + 技术** 的系统，目标是缩短从想法到上线的反馈周期，同时提升质量与可靠性。它强调开发、运维与安全的共同责任，通过自动化和持续反馈降低交付风险。本文将涵盖 DevOps 原则、系统架构、交付流程以及工具链。
 
+参考蓝图仓库：[sven0219/devops-platform-blueprint](https://github.com/sven0219/devops-platform-blueprint)。
+
 ## 1. DevOps 核心原则
 
 ### 1.1 协作文化：打破孤岛
