@@ -1,6 +1,6 @@
 ---
 title: "How I Use AI in My Daily Work"
-date: 2026-09-04 16:00:00+08:00
+date: 2026-09-04 15:40:00+08:00
 draft: false
 author: "Sven"
 summary: "After a year of daily AI use — 500+ sessions, 22,000+ messages — this is what actually worked: AI as a terminal operator, a two-tier model strategy, one-session-per-task discipline, sub-agent exploration, and the honest limits I hit along the way."
