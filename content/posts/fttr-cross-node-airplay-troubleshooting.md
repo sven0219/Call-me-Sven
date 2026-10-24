@@ -1,7 +1,7 @@
 ---
 title: "Debugging AirPlay Across Huawei FTTR Nodes: ARP and the IPv6 Firewall"
 date: 2026-10-24T14:40:00+08:00
-draft: false
+draft: true
 author: "Sven"
 summary: "A Mac on a Huawei K155 satellite gateway could not reach a Xiaomi TV on the V175 main gateway. ARP captures, ADB BSSID checks, and an IPv6 firewall toggle narrowed down the issue."
 showtoc: true

@@ -1,7 +1,7 @@
 ---
 title: "华为 FTTR 主从网关投屏失败排查：ARP 与 IPv6 防火墙"
 date: 2026-10-24T14:40:00+08:00
-draft: false
+draft: true
 author: "Sven"
 summary: "Mac 连接华为 K155 从网关时无法访问连接 V175 主网关的小米电视。记录 ARP 抓包、ADB 核对接入点，以及 IPv6 防火墙开关对照的结果。"
 showtoc: true
